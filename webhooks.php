@@ -1,6 +1,5 @@
 ﻿<?php
 	//คัดลอก Channel access token จากหน้าตั้งค่าของเว็บไซต์ developer.line.me/en
-	// $accessToken = "RUCuRagix1stF6bJYTZBrIww285FqsJfPZEpkOnXFAfZ2LeHxUkep7qaqv75hsJ/RaSKxq/rSaTu4piMw9xabOvEeRG8w3E9GrxLmAmK4I+KJc16YbGH2ZtNnu5XPhQGknXF/bvfm8293Tv2/Y6OQgdB04t89/1O/w1cDnyilFU=";
 	$accessToken = "<วาง Channel access token ตรงนี้>";
 
 	// ดึงข้อมูลที่ LINE Server ส่งมาทั้งหมด เก็บในตัวแปร $payloads ด้วยประเภทตัวแปร String
