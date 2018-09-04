@@ -1,6 +1,6 @@
 ﻿<?php
 	//คัดลอก Channel access token จากหน้าตั้งค่าของเว็บไซต์ developer.line.me/en
-	$accessToken = "<วาง Channel access token ตรงนี้>";
+	$accessToken = "วาง Channel access token ตรงนี้";
 
 	// ดึงข้อมูลที่ LINE Server ส่งมาทั้งหมด เก็บในตัวแปร $payloads ด้วยประเภทตัวแปร String
 	$payloads = file_get_contents("php://input");
