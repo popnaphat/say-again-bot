@@ -3,7 +3,7 @@
 	$accessToken = "A2vi8pE1X2HAQIM8goe1u+naF4fjT21H60PhWLovTesoSjtJrm2pFXqDZsfKHzj0d+Ly1TvYtrZQfZOI++JbMGgZuWZE+5/GWhPQpgCiVhFYq3jv89lB55itG8s7y1msC0wxu2ZeMArAr5KTuCUj2gdB04t89/1O/w1cDnyilFU=";
 
 	// ดึงข้อมูลที่ LINE Server ส่งมาทั้งหมด เก็บในตัวแปร $payloads ด้วยประเภทตัวแปร String
-	$payloads = file_get_contents("https://dertor-r4.herokuapp.com/webhooks.php");
+	$payloads = file_get_contents("php://input");
 	
 	// เปลี่ยนประเภทตัวแปรของ $payloads จากประเภท String เป็น Object เพื่อให้สามารถดึงค่าได้
 	$json = json_decode($payloads, true);
