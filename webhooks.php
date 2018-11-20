@@ -45,3 +45,4 @@
 	exit;
 	
 ?>
+echo $payloads;
