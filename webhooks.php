@@ -43,6 +43,5 @@
 	}
 
 	exit;
-	
+echo $payloads;	
 ?>
-echo $payloads;
