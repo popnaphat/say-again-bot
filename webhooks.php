@@ -43,5 +43,5 @@
 	}
 
 	exit;
-echo $payloads;	
+echo $message;	
 ?>
